@@ -1,0 +1,15 @@
+[ 2023-11-27 19:18:36,355 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2023-11-27 19:18:36,356 ] 96 werkzeug - INFO -  * Debugger PIN: 103-731-848
+[ 2023-11-27 19:18:39,512 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:39] "GET / HTTP/1.1" 200 -
+[ 2023-11-27 19:18:39,529 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2023-11-27 19:18:43,196 ] 92 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2023-11-27 19:18:43,196 ] 60 root - INFO - Exporting data from mongodb
+[ 2023-11-27 19:18:47,382 ] 69 root - INFO - Saving exported data into feature store file path: artifacts
+[ 2023-11-27 19:18:50,666 ] 98 root - INFO - Got the data from mongodb
+[ 2023-11-27 19:18:50,667 ] 101 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2023-11-27 19:18:50,667 ] 99 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2023-11-27 19:18:53,232 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:53] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2023-11-27 19:18:53,275 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:53] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-11-27 19:18:53,282 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:53] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-11-27 19:18:53,312 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:53] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-11-27 19:18:53,320 ] 96 werkzeug - INFO - 127.0.0.1 - - [27/Nov/2023 19:18:53] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
